@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { companies, testimonials } from "@/data";
