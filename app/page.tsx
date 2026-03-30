@@ -7,6 +7,8 @@ import { Hero } from "@/components/hero";
 import { FloatingNav } from "@/components/ui/floating-nav";
 import { RecentProjects } from "@/components/recent-projects";
 import { navItems } from "@/data";
+import { Certifications } from "@/components/Certifications";
+import { JobSimulations } from "@/components/job-simulations";
 
 const MainPage = () => {
   return (
@@ -19,6 +21,8 @@ const MainPage = () => {
         <RecentProjects />
       
         <Experience />
+        <Certifications/>
+        <JobSimulations />
         <Approach />
         <Footer />
       </div>

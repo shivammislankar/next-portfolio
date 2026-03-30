@@ -1,8 +1,11 @@
 import { links } from "@/config";
+import { link } from "fs";
 
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Certificates", link: "#certifications" },
+  { name: "Job Simulations", link: "#simulations" },
   { name: "Contact", link: "#contact" },
 ] as const;
 
@@ -109,6 +112,61 @@ export const projects = [
   // },
 ] as const;
 
+export const certifications = [
+  {
+    id: 1,
+    title: "Attendance Hashgraph Developer",
+    org: "The Hashgraph Association",
+    credential_ID:"e46e0d48-eff1-4ec6-a549-8ba0455ad6f9",
+    link: "https://certs.hashgraphdev.com/e46e0d48-eff1-4ec6-a549-8ba0455ad6f9.pdf",
+  },
+   {
+    id: 2,
+    title: "Prompt Engineering ",
+    org: "Cognitive Class",
+    credential_ID:"f5c1a3cecb064d909e3f7f1ad6c64ebc",
+    link: "https://courses.cognitiveclass.ai/certificates/f5c1a3cecb064d909e3f7f1ad6c64ebc",
+  },
+   {
+    id: 3,
+    title: "Agile Project Mangement Certifications",
+    org: "HP LIFE",
+    credential_ID:"c8ccc899-8a01-4cf4-873e-5415ccbeb200",
+    link: "https://www.life-global.org/certificate/c8ccc899-8a01-4cf4-873e-5415ccbeb200",
+  }, {
+    id: 4,
+    title: "UI/UX For Beginners ",
+    org: "Great Learning",
+    credential_ID:"QDZMLPFL",
+    link: "https://www.mygreatlearning.com/certificate/QDZMLPFL",
+  },
+];
+
+export const simulations = [
+  {
+    id: 1,
+    company: "J.P. Morgan",
+    role: "Software Engineering Simulation",
+    platform: "Forage",
+    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_Zi7g93shjs3TKcqzv_1725189886841_completion_certificate.pdf",
+  },
+  {
+    id: 2,
+    company: "Electronic Arts",
+    role: "Software Engineering Job Simulation",
+    platform: "Forage",
+    link: "https://www.theforage.com/completion-certificates/j43dGscQHtJJ57N54/a77WE3de8qrxWferQ_j43dGscQHtJJ57N54_Zi7g93shjs3TKcqzv_1773746237633_completion_certificate.pdf",
+  },
+  {
+    id: 3,
+    company: "Hewlett Packard Enterprise",
+    role: " Software Engineering Job Simulation",
+    platform: "Forage",
+    link: "https://www.theforage.com/completion-certificates/fgHAi6dLhpRsGKyyN/da2T3WZCbMAJD7bNB_fgHAi6dLhpRsGKyyN_Zi7g93shjs3TKcqzv_1773751049067_completion_certificate.pdf",
+  },
+
+
+];
 export const testimonials = [
   {
     quote: `Collaborating with ${links.ownerName} was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. ${links.ownerName}'s enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, ${links.ownerName} is the ideal partner.`,
